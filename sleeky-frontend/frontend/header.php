@@ -16,10 +16,10 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?php echo siteURL ?>/frontend/assets/css/base.css">
-    <link rel="stylesheet" href="<?php echo siteURL ?>/frontend/assets/css/mobile.css">
-    <link rel="stylesheet" href="<?php echo siteURL ?>/frontend/assets/css/tablet.css">
-    <link rel="stylesheet" href="<?php echo siteURL ?>/frontend/assets/css/desktop.css">
+    <link rel="stylesheet" href="<?php echo siteURL ?>/frontend/assets/css/base.css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="<?php echo siteURL ?>/frontend/assets/css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 959px)" href="<?php echo siteURL ?>/frontend/assets/css/tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="<?php echo siteURL ?>/frontend/assets/css/desktop.css" />
 
     <?php if (defined('backgroundImage')) : ?>
       <style>
